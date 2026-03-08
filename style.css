@@ -1,0 +1,77 @@
+.bh-widget {
+  --bh-open-color: #22c55e;
+  --bh-closed-color: #ef4444;
+  --bh-highlight-bg: #f0f9ff;
+  --bh-border-color: #e5e7eb;
+  --bh-text-color: #374151;
+  --bh-font-family: system-ui, -apple-system, sans-serif;
+
+  font-family: var(--bh-font-family);
+  color: var(--bh-text-color);
+  border: 1px solid var(--bh-border-color);
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 320px;
+  background: #fff;
+}
+
+.bh-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--bh-border-color);
+}
+
+.bh-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.bh-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bh-open {
+  background: var(--bh-open-color);
+  color: white;
+}
+
+.bh-closed {
+  background: var(--bh-closed-color);
+  color: white;
+}
+
+.bh-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bh-day {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.bh-today {
+  background: var(--bh-highlight-bg);
+  font-weight: 600;
+}
+
+.bh-day-name {
+  min-width: 90px;
+}
+
+.bh-day-closed {
+  color: var(--bh-closed-color);
+  font-style: italic;
+}
